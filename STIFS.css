@@ -1,0 +1,81 @@
+
+a{
+  color: unset;
+}
+a:focus,
+a:hover {
+  color: black;
+  text-decoration-line: none;
+}
+body{
+  padding-top: 150px;
+  text-rendering: optimizeLegibility;
+  overflow: scroll;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+h5{
+  font-family: 'Quicksand', sans-serif;
+}
+.wrapper{
+  text-align: center;
+
+}
+.wrapper>h1{
+  font-family: 'Playfair Display', serif;
+}
+.wrapper h4,p{
+  font-family: 'Playfair Display', serif;
+}
+.wrapper p{
+  font-size: auto;
+}
+#stage{
+  width: 100%;
+  max-height: 100%;
+  align-content: center;
+  justify-content: center;
+
+}
+#stage img{
+  max-width: 100%;
+}
+.row{
+  padding-top: 1rem;
+}
+.darkdiv{
+background-color: #702632;
+color: whitesmoke;
+font-family: 'Playfair Display', serif;
+text-align: center;
+justify-content: center;
+
+}
+.lightdiv{
+color: #702632;
+background-color: whitesmoke;
+font-family: 'Playfair Display', serif;
+text-align: center;
+justify-content: center;
+}
+.section{
+  position: relative;
+  overflow: auto;
+  padding: 1rem 2rem;
+  max-height: 100%;
+}
+
+.button{
+  
+  background: none;
+  border: none;
+}
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
